@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  /* font-size: ; */
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  background-color: rgb(88, 88, 248);
+  padding: 2rem;
+}
+.poto_1 {
+  width: 20%;
+}
+.content {
+  background-color: #faf3f3;
+  border-radius: 0.5rem;
+}
+header {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 1rem 2rem;
+  margin: 0 3rem;
+  font-family: Verdana, sans-serif;
+}
+.nav_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+}
+.nav_left h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 2.4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
+.nav_right a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
+.btn_one {
+  width: 100px;
+  padding: 0.8rem;
+  margin-left: 1rem;
+  background-color: rgb(88, 88, 248);
+  color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+}
+.btn_one:focus {
+  outline: none;
+}
+.para_one {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.para_one h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.para_one p {
+  font-size: 0.9rem;
+  color: #969090;
+  margin-top: 2rem;
+}
+.srch_srch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.srch {
+  width: 90%;
+  margin-top: 2.5rem;
+  padding: 0.8rem;
+  border: none;
+  background-color: #fff;
+  border-color: #fff;
+}
+.srch:focus {
+  outline: none;
+}
+::placeholder {
+  font-size: 0.9rem;
+  color: #d8d5d5;
+}
+/* color: transparent;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    to blur something */
+
+.practical {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.practical_para {
+  margin-right: auto;
+  margin-left: 1.4rem;
+}
+.practical_para h3 {
+  font-family: Verdana, sans-serif;
+  font-size: 1.5rem;
+}
+.practical_para p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(169, 169, 202);
+}
+.btn_two {
+  margin-left: 0.2rem;
+  margin-right: 1.6rem;
+  width: 150px;
+  padding: 1rem;
+  background-color: rgb(88, 88, 248);
+  color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+.btn_two:focus {
+  outline: none;
+}
+.btn_two .bro {
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.about_me {
+  width: 55%;
+  background-color: #e9e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+.poto_2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 3rem;
+}
+.para_para {
+  margin-left: 0.5rem;
+}
+.para_para .para--two {
+  margin-top: 3rem;
+}
+.skill_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin-top: 5rem;
+}
+.skill_menu {
+  width: 90%;
+  display: flex;
+}
+.skill_kill {
+  padding: 2rem;
+  width: 80%;
+}
+.skill_kill h3 {
+  font-size: 2rem;
+  font-family: Verdana, sans-serif;
+  margin-top: 2.5rem;
+}
+.skill_kill p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(169, 169, 202);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.tech {
+  margin-top: 3rem;
+}
+.tech a {
+  text-decoration: none;
+  color: rgb(88, 88, 248);
+}
+.btn_three {
+  border: none;
+  font-size: 1.6rem;
+  color: rgb(88, 88, 248);
+  background-color: #faf3f3;
+}
+.btn_three:focus {
+  outline: none;
+}
+.menu_menu {
+  display: flex;
+  margin-left: 5rem;
+}
+.skill_skill {
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0;
+  width: 25%;
+}
+.skil_two {
+  margin-left: 15rem;
+}
+.skil_three {
+  margin-left: 1rem;
+}
+.skil_four {
+  margin-left: 1rem;
+}
+.topic {
+  color: rgb(88, 88, 248);
+}
+.skill_skill h3 {
+  font-size: 1rem;
+  font-family: Verdana, sans-serif;
+  margin-top: 0.5rem;
+}
+.skill_skill .down {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(169, 169, 202);
+  font-size: 0.9rem;
+  margin-top: 1.8rem;
+}
+.but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.butt_butt {
+  width: 80%;
+  padding: 0.3rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: rgb(88, 88, 248);
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: Verdana, sans-serif;
+}
+.butt_butt:focus {
+  outline: none;
+}
+.more_kill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: rgb(88, 88, 248);
+  margin-top: 5rem;
+  padding: 6rem;
+}
+.more_one {
+  color: #fff;
+  margin-right: auto;
+}
+.more_one h3 {
+  font-size: 2rem;
+  font-family: Verdana, sans-serif;
+}
+.more_one p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(169, 169, 202);
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+.btn_four {
+  margin-left: 0.5rem;
+  margin-right: 10rem;
+  padding: 2rem;
+  background-color: #faf3f3;
+  color: rgb(88, 88, 248);
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  font-family: Verdana, sans-serif;
+}
+.btn_four:focus {
+  outline: none;
+}
+.me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+footer {
+  background-color: #333;
+  margin-top: 2rem;
+  color: #fff;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mail {
+  text-decoration: none;
+  color: #fff;
+}
