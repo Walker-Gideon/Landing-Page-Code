@@ -10,14 +10,14 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: #444;
-  background-color: rgb(88, 88, 248);
+  background-color: #7ab2b2;
   padding: 2rem;
 }
 .poto_1 {
   width: 20%;
 }
 .content {
-  background-color: #faf3f3;
+  background-color: #cde8e5; /*faf3f3*/
   border-radius: 0.5rem;
 }
 header {
@@ -54,7 +54,7 @@ nav a {
   width: 100px;
   padding: 0.8rem;
   margin-left: 1rem;
-  background-color: rgb(88, 88, 248);
+  background-color: #7ab2b2;
   color: #fff;
   border: none;
   border-radius: 0.4rem;
@@ -75,7 +75,7 @@ nav a {
 }
 .para_one p {
   font-size: 0.9rem;
-  color: #969090;
+  color: #444;
   margin-top: 2rem;
 }
 .srch_srch {
@@ -120,14 +120,14 @@ nav a {
 .practical_para p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(169, 169, 202);
+  color: #4d869c;
 }
 .btn_two {
   margin-left: 0.2rem;
   margin-right: 1.6rem;
   width: 150px;
   padding: 1rem;
-  background-color: rgb(88, 88, 248);
+  background-color: #7ab2b2;
   color: #fff;
   border: none;
   border-radius: 0.4rem;
@@ -149,7 +149,7 @@ nav a {
 }
 .about_me {
   width: 55%;
-  background-color: #e9e3e3;
+  background-color: #eef7ff; /*e9e3e3*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,9 +188,8 @@ nav a {
   margin-top: 2.5rem;
 }
 .skill_kill p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(169, 169, 202);
+  font-family: Verdana, sans-serif;
+  color: #444;
   font-size: 0.9rem;
   margin-top: 0.5rem;
 }
@@ -202,10 +201,10 @@ nav a {
   color: rgb(88, 88, 248);
 }
 .btn_three {
+  background-color: #cde8e5;
   border: none;
   font-size: 1.6rem;
   color: rgb(88, 88, 248);
-  background-color: #faf3f3;
 }
 .btn_three:focus {
   outline: none;
@@ -231,7 +230,7 @@ nav a {
   margin-left: 1rem;
 }
 .topic {
-  color: rgb(88, 88, 248);
+  color: #7ab2a6;
 }
 .skill_skill h3 {
   font-size: 1rem;
@@ -239,9 +238,8 @@ nav a {
   margin-top: 0.5rem;
 }
 .skill_skill .down {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(169, 169, 202);
+  font-family: Verdana, sans-serif;
+  color: #444;
   font-size: 0.9rem;
   margin-top: 1.8rem;
 }
@@ -256,7 +254,7 @@ nav a {
   margin-top: 2rem;
   border: none;
   border-radius: 0.3rem;
-  background-color: rgb(88, 88, 248);
+  background-color: #7ab2b2;
   color: #fff;
   font-size: 0.9rem;
   font-family: Verdana, sans-serif;
@@ -274,7 +272,7 @@ nav a {
   justify-content: center;
   align-items: center;
   width: 80%;
-  background-color: rgb(88, 88, 248);
+  background-color: #4d869c;
   margin-top: 5rem;
   padding: 6rem;
 }
@@ -289,7 +287,7 @@ nav a {
 .more_one p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: rgb(169, 169, 202);
+  color: #fff;
   font-size: 0.9rem;
   margin-top: 2rem;
 }
@@ -298,7 +296,7 @@ nav a {
   margin-right: 10rem;
   padding: 2rem;
   background-color: #faf3f3;
-  color: rgb(88, 88, 248);
+  color: #4d869c;
   font-size: 1.6rem;
   border: none;
   border-radius: 0.4rem;
