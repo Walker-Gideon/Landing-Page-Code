@@ -4,7 +4,6 @@
   box-sizing: inherit;
 }
 html {
-  /* font-size: ; */
   box-sizing: border-box;
 }
 body {
@@ -22,7 +21,6 @@ body {
 }
 header {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   padding: 1rem 2rem;
   margin: 0 3rem;
@@ -98,10 +96,6 @@ nav a {
   font-size: 0.9rem;
   color: #d8d5d5;
 }
-/* color: transparent;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    to blur something */
-
 .practical {
   margin-top: 4rem;
   display: flex;
