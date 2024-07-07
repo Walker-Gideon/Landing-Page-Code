@@ -1,101 +1,189 @@
+/*
+---01 TYPOGRAPHY SYSTEM
+*Font sisz (px)
+10/ 12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 62/ 74/ 86/ 98/
+
+*Font Weight
+    Default: 400
+  Medium:  500
+  Semi-bold: 600
+  Bold: 700
+
+*Line heights
+    Default: 
+   Small: 
+   medium: 
+   Paragraph Default: 
+
+*letter-spaceing
+
+
+---02 COLORS
+*Primary:
+
+
+..Tints: are the lighter version of any 
+
+
+..Shades:
+        
+
+..Accents:
+
+
+..Greys:
+    #555 i might be interested
+    #333 this too!
+
+---05 SHADOWS
+
+---06 BORDER_RADIUS
+Default: 9px
+medium: 
+
+---07 WHITESPACE
+    *Spacing System (px)
+2/ 4/ 8/ 12/ 24/ 32/ 48/ 64/ 80/ 96/ 128
+*/
+
+/*? GENERAL STYLING  */
+:root {
+
+}
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-}
-html {
   box-sizing: border-box;
 }
 body {
   font-family: "Poppins", sans-serif;
-  color: #444;
-  background-color: #7ab2b2;
-  padding: 2rem;
+  color: #555;
+  background-color: #7ab2b2; /*this need to be change*/
+  padding: 5.2rem 3.6rem;
 }
+
+/*?  PAGE CONTAINER */
+.container {
+  background-color: #fff; 
+  border-radius: 9px;
+}
+/*
 .poto_1 {
   width: 20%;
 }
-.content {
-  background-color: #cde8e5; /*faf3f3*/
-  border-radius: 0.5rem;
-}
+  */
+
+/*? NAVIGATION */
 header {
   display: flex;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
   margin: 0 3rem;
   font-family: Verdana, sans-serif;
 }
-.nav_left {
+.left-navigation {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: auto;
 }
-.nav_left h1 {
-  font-family: "Courier New", Courier, monospace;
+.left-navigation .icon {
+  font-size: 3rem;
+  margin-right: 1rem;
 }
-nav a {
+.main-nav-link {
+  margin-left: 1.8rem;
+}
+.nav-links-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.9rem;
+}
+.nav-list:link,
+.nav-list:visited {
   text-decoration: none;
-  margin-left: 2.4rem;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #333;
+  transition: all 0.3s;
+  /* font-family:  monospace; */
 }
-.nav_right a {
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #333;
+.nav-list:hover,
+.nav-list:active {
+  color: #4d869c; /*this need to be change*/
 }
+.right-navigation .nav-list {
+  margin-right: 1rem;
+}  
 .btn_one {
-  width: 100px;
-  padding: 0.8rem;
-  margin-left: 1rem;
-  background-color: #7ab2b2;
+  padding: 1.2rem 2.4rem;
+  background-color: #7ab2b2; /*this need to be change*/
   color: #fff;
   border: none;
-  border-radius: 0.4rem;
+  border-radius: 9px;
   font-size: 1.2rem;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .btn_one:focus {
   outline: none;
 }
-.para_one {
+.btn_one:hover {
+  background-color: #7ab2a6; /*light color*/
+  color: #555;
+}
+
+/*? MAIN PARAGRAPG */
+main {
+  max-width: 100rem;
+}
+
+/*? MAIN HEADER SECTION */
+.section-main-header {
+  padding: 4.8rem 0 9.6rem 0;
+  margin-top: 2rem;
+}
+.paragraph-container {
   text-align: center;
+  font-family: Verdana;
+}
+.top-paragraph,
+.below-top-paragraph {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+.main-paragraph-tag {
+  font-size: 1.2rem;
+  color: #555;
   margin-top: 2rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.para_one h2 {
-  font-size: 1.8rem;
-  font-weight: 500;
-}
-.para_one p {
-  font-size: 0.9rem;
-  color: #444;
-  margin-top: 2rem;
-}
-.srch_srch {
+.search-Container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 4.4rem;
 }
-.srch {
-  width: 90%;
-  margin-top: 2.5rem;
-  padding: 0.8rem;
+.search-box {
+  width: 80%;
+  padding: 1.2rem;
   border: none;
-  background-color: #fff;
-  border-color: #fff;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  box-shadow: 0.8rem 1rem 1.4rem rgba(0, 0, 0, 0.1);
 }
-.srch:focus {
+.search-box:focus {
+  /* border-color: #007bff; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 123, 255, 0.5);
   outline: none;
 }
 ::placeholder {
   font-size: 0.9rem;
-  color: #d8d5d5;
+  color: gray;
 }
+/*
 .practical {
   margin-top: 4rem;
   display: flex;

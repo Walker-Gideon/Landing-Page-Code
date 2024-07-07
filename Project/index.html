@@ -3,67 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
-    <title>Exercise__1</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>NO_Name</title>
   </head>
   <body>
-    <div class="content">
-      <header>
-        <div class="nav_left">
-          <h1>Mr.Me</h1>
-          <nav>
-            <a href="#about" class="nav_link">About</a>
-            <a href="#skills" class="nav_link">Skills</a>
-            <a href="#projects" class="nav_link">Projects</a>
+    <div class="container">
+      <header class="header">
+        <div class="left-navigation">
+          <h1 class="icon">⏺️</h1>
+
+          <nav class="main-nav-link">
+            <ul class="nav-links-list">
+              <li><a href="#" class="nav-list">Library</a></li>
+              <li><a href="#" class="nav-list">Subjects</a></li>
+              <li><a href="#" class="nav-list">Paths</a></li>
+            </ul>
           </nav>
         </div>
-        <div class="nav_right">
-          <a href="#">menu</a>
+
+        <div class="right-navigation">
+          <a href="#" class="nav-list">Sign in</a>
         </div>
-        <button class="btn_one btn">Check</button>
+
+        <button class="btn_one btn">Join Pro</button>
       </header>
 
       <main>
-        <section>
-          <div class="para_one paragraph">
-            <h2>
-              Ready to know
-              <br />
-              something awesome about me?
-            </h2>
+        <section class="section-main-header">
+          <div class="paragraph-container">
+            <h2 class="top-paragraph"> Ready to build </h2> 
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
+            <h2 class="below-top-paragraph">something awesome?</h2>
+
+            <p class="main-paragraph-tag">We create practical screencasts for awesome developers.</p>
           </div>
-        </section>
 
-        <section>
-          <div class="srch_srch">
+          <div class="search-Container">
             <input
               type="text"
-              placeholder="Search more eg. about me"
-              class="srch"
+              placeholder="Search out Library, e.g. Learn React"
+              class="search-box"
             />
           </div>
         </section>
 
-        <section id="projects" class="scroll--to">
+
+        <section  class="scroll--to">
           <div class="practical">
             <div class="practical_para">
-              <h3>Practical projects ahead</h3>
+              <h3>Practical projects to get you ahead</h3>
               <p>
-                omnis veritatis ducimus eligendi corporis eaque provident,
-                <br />
-                unde minus error molestiae quidem debitis. Dolorem.
+                Rather than just teach theory, we focus on real code to inspire your next project. Learning shouldn't be boring, so let's have some fun. 
               </p>
             </div>
             <button class="btn_two btn">
-              &#x1f50e;
-              <p class="bro">Browse</p>
+              <!-- a shearch icon -->
+              <ion-icon name="search-outline"></ion-icon>
+              <span>Browse Library</span>
             </button>
           </div>
         </section>
 
-        <section>
+        <!-- forward arrow -->
+         <!-- html entity &rarr; -->
+        <!-- <ion-icon name="arrow-forward-outline"></ion-icon> -->
+
+        <!-- play or pause -->
+        <!-- <ion-icon name="play-circle-outline"></ion-icon> -->
+<!--    <section>
           <div class="about">
             <div class="about_me">
               <img class="poto_2" src="/Exercise/images/page.png" alt="" />
@@ -200,9 +218,10 @@
           Contact me at:
           <a href="email:me@gmail.com" class="mail">me@gamil.com</a>
         </p>
-      </footer>
+      </footer> -->
     </div>
 
     <script src="script.js"></script>
   </body>
 </html>
+<!--  -->
