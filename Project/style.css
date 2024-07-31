@@ -139,6 +139,7 @@ header {
   font-size: 1.2rem;
   transition: 0.3s;
   cursor: pointer;
+  transition: all 0.3s;
 }
 .btn_one:focus {
   outline: none;
@@ -227,6 +228,7 @@ main {
   font-size: 1.2rem;
   display: flex;
   align-items: center;
+  transition: all 0.3s;
 }
 .btn_two:focus {
   outline: none;
