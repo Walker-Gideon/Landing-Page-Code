@@ -45,7 +45,6 @@ medium:
     *Spacing System (px)
 2/ 4/ 8/ 12/ 24/ 32/ 48/ 64/ 80/ 96/ 128
 
-
 */
 
 /*? GENERAL STYLING  */
@@ -69,31 +68,30 @@ medium:
   box-sizing: border-box;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #555;
   background-color: var(--primary-col); 
   padding: 5.2rem 3.6rem;
 }
 .sections {
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 4.8rem 0 9.6rem;
 }
+
 /*?  PAGE CONTAINER */
 .container {
   background-color: var(--secondary-col);
   border-radius: 9px;
+  padding: 0 5.2rem;
 }
-/*
-.poto_1 {
-  width: 20%;
+.inner-container {
+  /* background-color: red; */
 }
-  */
 
 /*? NAVIGATION */
 header {
   display: flex;
   align-items: center;
-  padding: 1rem 4rem;
-  margin: 0 3rem;
+  padding: 1rem 0;
   font-family: Verdana, sans-serif;
 }
 .left-navigation {
@@ -123,7 +121,6 @@ header {
   font-weight: 400;
   color: var(--text-main-col);
   transition: all 0.3s;
-  /* font-family:  monospace; */
 }
 .nav-list:hover,
 .nav-list:active {
@@ -137,7 +134,8 @@ header {
   background-color: var(--primary-col);
   color: var(--secondary-col);
   border: none;
-  border-radius: 9px;
+  border-radius: 6px;
+  margin-right: 0.8rem;
   font-size: 1.2rem;
   transition: 0.3s;
   cursor: pointer;
@@ -151,10 +149,6 @@ header {
   color: var(--text-main-col);
 }
 
-/*? MAIN PARAGRAPG */
-main {
-  max-width: 100rem;
-}
 
 /*? MAIN HEADER SECTION */
 .section-header {
@@ -166,14 +160,14 @@ main {
 }
 .top-paragraph,
 .below-top-paragraph {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
   color: var(--text-main-col);
 }
 .main-paragraph-tag {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: var(--text-least-col);
-  margin-top: 2rem;
+  margin-top: 3.5rem;
 }
 .search-Container {
   display: flex;
@@ -182,7 +176,7 @@ main {
   margin-top: 4.4rem;
 }
 .search-box {
-  width: 85%;
+  width: 98%;
   padding: 1.2rem;
   border: none;
   border-radius: 5px;
@@ -203,8 +197,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem;
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
 .practical_paragraph {
   margin-right: auto;
@@ -215,7 +208,7 @@ main {
   color: var(--text-main-col);
 }
 .practical_paragraph p {
-  /* font-family: ; */
+  font-size: 1.05rem;
   text-align: left;
   color: var(--text-least-col);
   margin-top: 10px;
@@ -231,6 +224,7 @@ main {
   display: flex;
   align-items: center;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .btn_two:focus {
   outline: none;
@@ -243,24 +237,20 @@ main {
   margin-left: 0.6rem;
 }
 .btn-icon {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 /*? ABOUT Section */
 .about {
-  padding: 4.8rem 0 1.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0 1rem;
 }
 .about_me {
-  width: 75%;
   background-color: var(--back-cover);
-  border-radius: 0.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  padding: 6.2rem; 
+  border-radius: 5px;
 }
 .poto_2 {
   width: 100px;
@@ -270,18 +260,16 @@ main {
 }
 .para_para {
   margin-left: 0.5rem;
-}
-.para_para {
   line-height: 1.5;
   color: #555;
 }
 .para_para .para--two {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 /* ? SKILLS section*/
 .skills {
-  padding: 0 5rem;
+  padding: 0 1rem;
   align-items: center;
 }
 .skill_grid {
@@ -294,11 +282,40 @@ main {
   grid-row: 2/-2;
 }
 .link-style {
-  margin-top: 2rem;
+  margin-top: 7rem;
+  align-items: center;
+}
+.link-style h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-main-col);
+}
+.link-style p {
+  font-size: 1rem;
+  line-height: 2;
+  color: var(--text-least-col);
+  margin-bottom: 2rem;
+}
+.browse {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.browse a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--text2-blue);
+}
+.btn_three {
+  border: none;
+  font-size: 1rem;
+  background-color: var(--secondary-col);
+  color: var(--text2-blue);
 }
 .grid-col-2 {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
 }
 .col-1 {
   grid-column: 2/ 6;
@@ -310,7 +327,6 @@ main {
   grid-column: 10/ -1;
 }
 .skill_menu {
-  /* background-color: yellowgreen; */
   grid-column: 3/-1;
   grid-row: 2/-2;
 }
@@ -320,7 +336,6 @@ main {
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
-  /* padding: 2.4rem 1.2rem 1.2rem;  */
 }
 .menu:hover {
   transform: translateY(-1.2rem);
@@ -333,29 +348,118 @@ main {
 .topic {
   font-size: 0.8rem;
   font-weight: 600;
-  /* font-family: ; */
   margin-bottom: 0.5rem;
-  /* color: var(--primary-col); */
   color: var(--text2-blue);
 }
 .next-topic {
-  font-size: 1.2rem;
-  font-weight: 600;
-  /* font-family: ; */
-  margin-bottom: 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
   color: var(--text-main-col);
 }
 .down-text {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 500;
-  /* font-family: ; */
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.8rem;
   line-height: 1.8;
   color: var(--text-least-col);
 }
 .btn-container {
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
 }
+.butt_butt {
+  padding: 0.2rem 0.4rem;
+  border: none;
+  background-color: var(--back-cover);
+  color: var(--text-sec-col);
+  cursor: pointer;
+}
+.butt_butt:focus {
+  outline: none;
+}
+.butt_butt:hover {
+  background-color: var(--small-btn);
+  color: var(--text-main-col);
+}
+.play-Container {
+  border: 1px solid var(--primary-col);
+  border-radius: 8px;
+  background-color: var(--primary-col);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.watch-now {
+  font-size: 0.8rem;
+  color: var(--secondary-col);
+}
+.play-icon  {
+  color: var(--secondary-col);
+  display: inline-block;
+}
+
+/*? PLAN Section */
+.plans-section {
+  padding: 0 1rem 4.4rem;
+}
+.plans-container {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-col);
+  padding: 5.2rem;
+  border-radius: 5px;
+}
+.plans-text-container {
+  margin-left: 1.5rem;
+}
+.plan-text-header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary-col);
+  line-height: 1.5;
+  margin-left: 3rem;
+}
+.plan-text {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--secondary-col);
+  margin-left: 3rem;
+}
+.plan-btn {
+  margin-left: auto;
+  margin-right: 8rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  padding: 1.4rem 4.4rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: var(--secondary-col);
+  color: var(--text-main-col);
+}
+.plan-btn:focus {
+  outline: none;
+}
+.plan-btn:hover {
+  background-color: var(--col-hover);
+  color: var(--text-main-col);
+}
+
+
+/* I will use this for my next styling  */
+.grid-content {
+  display: grid;
+  grid-template-columns: 10rem 1fr 1fr 10rem;
+}
+.content-span {
+  grid-column: 2/-2;
+}
+
 
 /*
 .skill_one {
