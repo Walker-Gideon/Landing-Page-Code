@@ -70,7 +70,7 @@ medium:
 body {
   font-family: "Rubik", sans-serif;
   color: #555;
-  background-color: var(--primary-col); 
+  background-color: var(--primary-col);
   padding: 5.2rem 3.6rem;
 }
 .sections {
@@ -124,7 +124,7 @@ header {
 }
 .nav-list:hover,
 .nav-list:active {
-  color: var(--arc-hover); 
+  color: var(--arc-hover);
 }
 .right-navigation .nav-list {
   margin-right: 1rem;
@@ -145,10 +145,9 @@ header {
   outline: none;
 }
 .btn_one:hover {
-  background-color: var(--col-hover); 
+  background-color: var(--col-hover);
   color: var(--text-main-col);
 }
-
 
 /*? MAIN HEADER SECTION */
 .section-header {
@@ -249,7 +248,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6.2rem; 
+  padding: 6.2rem;
   border-radius: 5px;
 }
 .poto_2 {
@@ -397,7 +396,7 @@ header {
   font-size: 0.8rem;
   color: var(--secondary-col);
 }
-.play-icon  {
+.play-icon {
   color: var(--secondary-col);
   display: inline-block;
 }
@@ -450,172 +449,64 @@ header {
   color: var(--text-main-col);
 }
 
-
-/* I will use this for my next styling  */
+/*? Section Next Card  */
+.next-card {
+  padding: 4.2rem 1rem 7.4rem;
+}
+.featured {
+  padding: 0 2rem 4.4rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Verdana;
+}
 .grid-content {
   display: grid;
-  grid-template-columns: 10rem 1fr 1fr 10rem;
+  grid-template-columns: 10rem 1fr 1fr 1fr 10rem;
 }
-.content-span {
-  grid-column: 2/-2;
+.span-col-1 {
+  grid-column: 2/3;
 }
-
-
-/*
-.skill_one {
+.span-col-2 {
+  grid-column: 3/4;
+}
+.span-col-3 {
+  grid-column: 4/5;
+}
+.col-center {
+  justify-self: center;
+}
+.menu-content2 {
+  width: 100%;
+  padding: 3.2rem 1.2rem 2.4rem;
+}
+.top-topic {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--text-main-col);
+}
+.diff-topic {
+  font-size: 1.001rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--text-main-col);
+}
+.topic-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+  line-height: 1.8;
+  color: var(--text-least-col);
+}
+.topic-text2 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+  line-height: 1.8;
+  color: var(--text-least-col);
+}
+.btn-container2 {
+  margin-bottom: 2rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-}
-.skill_menu {
-  width: 90%;
-  display: flex;
-}
-.skill_link {
-  padding: 2rem;
-  width: 80%;
-  align-items: center;
-  margin-top: 3rem;
-}
-.skill_link h3 {
-  font-size: 2rem;
-  font-family: Verdana, sans-serif;
-}
-.skill_link p {
-  font-family: Verdana, sans-serif;
-  color: #444;
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-}
-.browse {
-  margin-top: 3rem;
-}
-.browse a {
-  text-decoration: none;
-  color: rgb(88, 88, 248);
-}
-.btn_three {
-  background-color: #cde8e5;
-  border: none;
-  font-size: 1.6rem;
-  color: rgb(88, 88, 248);
-}
-.btn_three:focus {
-  outline: none;
-}
-.menu_menu {
-  display: flex;
-  margin-left: 5rem;
-}
-.skill_skill {
-  border-radius: 0.5rem;
-  background-color: #fff;
-  padding: 2rem;
-  margin: 0;
-  width: 25%;
-}
-.skil_two {
-  margin-left: 15rem;
-}
-.skil_three {
-  margin-left: 1rem;
-}
-.skil_four {
-  margin-left: 1rem;
-}
-.topic {
-  color: #7ab2a6;
-}
-.skill_skill h3 {
-  font-size: 1rem;
-  font-family: Verdana, sans-serif;
-  margin-top: 0.5rem;
-}
-.skill_skill .down {
-  font-family: Verdana, sans-serif;
-  color: #444;
-  font-size: 0.9rem;
-  margin-top: 1.8rem;
-}
-.but {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.butt_butt {
-  width: 80%;
-  padding: 0.3rem;
-  margin-top: 2rem;
-  border: none;
-  border-radius: 0.3rem;
-  background-color: #7ab2b2;
-  color: #fff;
-  font-size: 0.9rem;
-  font-family: Verdana, sans-serif;
-}
-.butt_butt:focus {
-  outline: none;
-}
-.more_kill {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.skill_more {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  background-color: #4d869c;
-  margin-top: 5rem;
-  padding: 6rem;
-}
-.more_one {
-  color: #fff;
-  margin-right: auto;
-}
-.more_one h3 {
-  font-size: 2rem;
-  font-family: Verdana, sans-serif;
-}
-.more_one p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #fff;
-  font-size: 0.9rem;
-  margin-top: 2rem;
-}
-.btn_four {
-  margin-left: 0.5rem;
-  margin-right: 10rem;
-  padding: 2rem;
-  background-color: #faf3f3;
-  color: #4d869c;
-  font-size: 1.6rem;
-  border: none;
-  border-radius: 0.4rem;
-  font-family: Verdana, sans-serif;
-}
-.btn_four:focus {
-  outline: none;
-}
-.me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-}
-footer {
-  background-color: #333;
-  margin-top: 2rem;
-  color: #fff;
-  padding: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.mail {
-  text-decoration: none;
-  color: #fff;
+  gap: 1rem;
 }
