@@ -80,7 +80,8 @@ body {
 /*?  PAGE CONTAINER */
 .container {
   background-color: var(--secondary-col);
-  border-radius: 9px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   padding: 0 5.2rem;
 }
 .inner-container {
@@ -509,4 +510,48 @@ header {
   margin-bottom: 2rem;
   display: flex;
   gap: 1rem;
+}
+.about-space {
+  padding: 0 0 8rem;
+}
+
+/*? Footer  */
+.footer {
+  background-color: var(--footer-col);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /* padding: 0 1rem; */
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+.footer-h3 {
+  color: var(--secondary-col);
+  font-size: 1.1rem;
+}
+.categories {
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.categories li {
+  list-style: none;
+  margin-top: 1rem;
+}
+.categories li a {
+  text-decoration: none;
+  color: var(--arc-hover);
+}
+.footer-end {
+  width: 100%;
+  background-color: var(--text-main-col);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.footer-end p {
+  color: var(--arc-hover);
 }
