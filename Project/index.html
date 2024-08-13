@@ -11,6 +11,7 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
 
     <script
       type="module"
@@ -67,13 +68,13 @@
             </div>
           </section>
 
-          <section class="sections section-pratical">
+          <section class="section-pratical">
             <div class="practical_paragraph">
               <h3>Practical projects to get you ahead</h3>
               <p>
                 Rather than just teach theory, we focus on real code to inspire
-                your next project. <br />Learning shouldn't be boring, so let's
-                have some fun.
+                your next project. Learning shouldn't be boring, so let's have
+                some fun.
               </p>
             </div>
 
@@ -84,24 +85,29 @@
           </section>
 
           <section class="about">
-            <div class="about_me">
-              <img
-                class="poto_2"
-                src="/images/page.png"
-                alt="Image of a coffec cup and studies books"
-              />
+            <div class="about_me me-me">
+              <div class="img-contain">
+                <img
+                  class="poto_2 photo-reduce"
+                  src="/images/my-smile.jpg"
+                  alt="Picture of Gideon smiling 😊"
+                />
+
+                <p class="name-show">Gideon Walker, Self taught @3.0</p>
+              </div>
 
               <div class="para_para">
                 <p class="para--one">
                   My career started as a guy dreaming to be a cyber security
-                  personal. Out of the love and small know how <br />
-                  of art I decided to learn how to handel the fronted end
-                  development. Codecourse took me from <br />
-                  basically no knowledge of development to being able to handel
-                  how far I have come.
+                  personal. Out of the love and small know how of art I decided
+                  to learn how to handel the fronted end development. Codecourse
+                  took me from basically no knowledge of development to being
+                  able to handel how far I have come.
                 </p>
 
-                <p class="para--two">Gideon Walker, Self taught @3.0</p>
+                <p class="name para--name-one">
+                  Gideon Walker, Self taught @3.0
+                </p>
               </div>
             </div>
           </section>
@@ -109,12 +115,14 @@
           <section id="skills" class="skills">
             <div class="skill_grid">
               <div class="link-style skill_link">
-                <h3>Latest Content</h3>
-                <p>Fresh from the library</p>
+                <div class="skill-text-container">
+                  <h2 class="latest">Latest Content</h2>
+                  <p>Fresh from the library</p>
+                </div>
 
                 <div class="browse">
                   <a href="#">Browse everything</a>
-                  <button class="btn_three btn">&rarr;</button>
+                  <span class="btn_three btn">&rarr;</span>
                 </div>
               </div>
 
@@ -208,19 +216,36 @@
           <section class="plans-section">
             <div class="plans-container">
               <div class="plans-text-container">
-                <p class="plan-text-header">
-                  Unlimited access <br />
+                <p class="plan-text-header remove-plan-text-header">
+                  Unlimited access<br />
                   to everything with <br />
                   pro memebership.
                 </p>
 
-                <p class="plan-text">
-                  For the price of a few coffees a month you get <br />access to
-                  our entire library of content, and more.
+                <p class="plan-text-header show-plan-text-header">
+                  Unlimited access to everything with pro memebership.
                 </p>
+
+                <div class="rap">
+                  <p class="plan-text remove-plan-text">
+                    For the price of a few coffees a month you get <br />accessa
+                    to our entire library of content, and more.
+                  </p>
+
+                  <p class="plan-text show-plan-text">
+                    For the price of a few coffees a month you get accessa to
+                    our entire library of content, and more.
+                  </p>
+
+                  <div class="plans-btn-container show">
+                    <p class="plan-btn">See Plans</p>
+                  </div>
+                </div>
               </div>
 
-              <button class="plan-btn">See Plans</button>
+              <div class="plans-btn-container">
+                <button class="plan-btn">See Plans</button>
+              </div>
             </div>
           </section>
 
@@ -313,12 +338,16 @@
           </section>
 
           <section class="about about-space">
-            <div class="about_me">
-              <img
-                class="poto_2"
-                src="/images/mub.jpg"
-                alt="Image of a PC components and studies books"
-              />
+            <div class="about_me next-me">
+              <div class="img-container">
+                <img
+                  class="poto_2"
+                  src="/images/me-work-out.jpg"
+                  alt="Picture of Gideon stratching 💪"
+                />
+
+                <p class="para-show">Gideon Walker, Self taught @3.0</p>
+              </div>
 
               <div class="para_para">
                 <p class="para--one">
@@ -332,7 +361,9 @@
                   knowledge will find you!
                 </p>
 
-                <p class="para--two">Gideon Walker, Self taught @3.0</p>
+                <p class="name para--name-two">
+                  Gideon Walker, Self taught @3.0
+                </p>
               </div>
             </div>
           </section>
