@@ -28,23 +28,38 @@
     <div class="container">
       <div class="inner-container">
         <header class="header">
-          <div class="left-navigation">
+          <div class="logo">
             <h1 class="icon">⏺️</h1>
-
-            <nav class="main-nav-link">
-              <ul class="nav-links-list">
-                <li><a href="#" class="nav-list">Library</a></li>
-                <li><a href="#" class="nav-list">Subjects</a></li>
-                <li><a href="#" class="nav-list">Paths</a></li>
-              </ul>
-            </nav>
           </div>
 
-          <div class="right-navigation">
-            <a href="#" class="nav-list">Sign in</a>
-          </div>
+          <nav class="navigation-container">
+            <div class="main-nav-link">
+              <div class="list-container">
+                <ul class="nav-links-list">
+                  <li><a href="#" class="nav-list">Library</a></li>
 
-          <button class="btn_one">Join Pro</button>
+                  <li><a href="#" class="nav-list">Subjects</a></li>
+
+                  <li><a href="#" class="nav-list">Paths</a></li>
+                </ul>
+              </div>
+
+              <div class="right-navigation">
+                <a href="#" class="nav-list">Sign in</a>
+                <a class="btn_one">Join Pro</a>
+              </div>
+            </div>
+
+            <!-- close button -->
+            <div class="close-icon">
+              <ion-icon name="close"></ion-icon>
+            </div>
+          </nav>
+
+          <!-- menu -->
+          <div class="menu-icon">
+            <ion-icon class="menu-ion-icon" name="menu"></ion-icon>
+          </div>
         </header>
 
         <main>
@@ -309,7 +324,37 @@
                 </div>
               </div>
 
-              <div class="menu skil_four skill_skill span-col-3 col-center">
+              <div class="show-menu">
+                <div class="menu skil_three skill_skill span-col-3 col-center">
+                  <div class="menu-content2">
+                    <p class="topic">PRO ONLY</p>
+                    <h3 class="top-topic">Super Fast Data Nesting</h3>
+
+                    <p class="topic-text2">
+                      Nesting huge amount of data like comments? Here's a unique
+                      <br />
+                      technique combining API data <br />
+                      fronted logic to make it a <br />
+                      breeze.
+                    </p>
+
+                    <div class="btn-container2">
+                      <button class="butt_butt">Laravel</button>
+                      <button class="butt_butt two">Vuex</button>
+                    </div>
+
+                    <div class="play-Container">
+                      <p class="watch-now">Watch-Now</p>
+                      <ion-icon
+                        class="play-icon"
+                        name="play-circle-outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu skil_four skill_skill span-col-4 col-center">
                 <div class="menu-content2">
                   <p class="topic">PRO ONLY</p>
                   <h3 class="diff-topic">Practical Vue Componenets</h3>
@@ -373,55 +418,57 @@
 
     <footer class="footer">
       <div class="footer-container">
-        <div class="footer-library">
-          <h3 class="footer-h3">Library</h3>
+        <div class="footer-contain">
+          <div class="footer-library footer-width">
+            <h3 class="footer-h3">Library</h3>
 
-          <ul class="categories">
-            <li><a href="#">Latest & Featured</a></li>
-            <li><a href="#">Library Index</a></li>
-            <li><a href="#">Snippets</a></li>
-            <li><a href="#">Beowse subject</a></li>
-          </ul>
-        </div>
+            <ul class="categories">
+              <li><a href="#">Latest & Featured</a></li>
+              <li><a href="#">Library Index</a></li>
+              <li><a href="#">Snippets</a></li>
+              <li><a href="#">Beowse subject</a></li>
+            </ul>
+          </div>
 
-        <div class="footer-account">
-          <h3 class="footer-h3">Account</h3>
+          <div class="footer-account footer-width">
+            <h3 class="footer-h3">Account</h3>
 
-          <ul class="categories">
-            <li><a href="#">Sing In</a></li>
-            <li><a href="#">Create Account</a></li>
-            <li><a href="#">Go Pro</a></li>
-            <li><a href="#">Testimonials</a></li>
-          </ul>
-        </div>
+            <ul class="categories">
+              <li><a href="#">Sing In</a></li>
+              <li><a href="#">Create Account</a></li>
+              <li><a href="#">Go Pro</a></li>
+              <li><a href="#">Testimonials</a></li>
+            </ul>
+          </div>
 
-        <div class="footer-social">
-          <h3 class="footer-h3">Social</h3>
+          <div class="footer-social footer-width">
+            <h3 class="footer-h3">Social</h3>
 
-          <ul class="categories">
-            <li><a href="#">RSS Feeds</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Youtube</a></li>
-          </ul>
-        </div>
+            <ul class="categories">
+              <li><a href="#">RSS Feeds</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </div>
 
-        <div class="footer-company">
-          <h3 class="footer-h3">Company</h3>
+          <div class="footer-company footer-width">
+            <h3 class="footer-h3">Company</h3>
 
-          <ul class="categories">
-            <li><a href="#">Get in& touch</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
+            <ul class="categories">
+              <li><a href="#">Get in& touch</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
 
-        <div class="footer-page">
-          <h3 class="footer-h3">Landing Page</h3>
+          <div class="footer-page footer-width">
+            <h3 class="footer-h3">Landing Page</h3>
 
-          <ul class="categories">
-            <li><a href="#">Effort</a></li>
-          </ul>
+            <ul class="categories">
+              <li><a href="#">Effort</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
