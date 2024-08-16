@@ -352,6 +352,12 @@
     gap: 4rem;
     align-items: center;
   }
+  .next-topic {
+    font-size: 1.2rem;
+  }
+  .down-text-next p {
+    font-size: 0.82rem;
+  }
   .plans-container {
     padding: 4.2rem 3.2rem;
   }
