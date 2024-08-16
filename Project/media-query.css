@@ -179,16 +179,44 @@
   .container {
     padding: 0 2.4rem;
   }
-  .main-nav-link {
+  .btn_one {
+    margin-top: 5rem;
+  }
+  .nav-links-list {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(30px);
+    background-color: transparent;
+    padding: 3rem 5rem 5rem;
+    z-index: 1;
+  }
+  .nav-links-list:not(:last-child) {
+    color: black;
   }
   .menu-icon {
-    display: contents;
-    font-size: 3.5rem;
-    margin-top: 1rem;
+    display: block;
+    transition: all 0.3s;
   }
-  .right-navigation {
+  .menu-toggle:checked ~ .close-icon {
+    display: block;
+    transition: all 0.3s;
+  }
+  .menu-toggle:checked ~ .nav-links-list {
+    display: flex;
+  }
+  .menu-toggle:checked ~ .menu-icon {
     display: none;
+  }
+  .close-icon {
+    display: none;
+    position: absolute;
+    right: 1px;
+    z-index: 2;
   }
   .poto_2 {
     width: 80px;
@@ -237,6 +265,13 @@
 }
 
 @media (max-width: 750px) {
+  .skill_menu {
+    padding: 0 10rem;
+  }
+  .grid-col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   .plans-container {
     padding: 4.2rem 3.2rem;
   }
@@ -261,8 +296,6 @@
   .menu-icon {
     font-size: 3rem;
   }
-  /* Other code for the navigation */
-
   .top-paragraph,
   .below-top-paragraph {
     font-size: 3rem;
@@ -278,7 +311,7 @@
     font-size: 0.7rem;
   }
   .practical_paragraph h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     white-space: nowrap;
   }
   .practical_paragraph p {
